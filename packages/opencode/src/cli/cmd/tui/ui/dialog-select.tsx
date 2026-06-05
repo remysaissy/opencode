@@ -57,6 +57,7 @@ export interface DialogSelectOption<T = any> {
   value: T
   description?: string
   details?: string[]
+  search?: string
   footer?: JSX.Element | string
   titleWidth?: number
   truncateTitle?: boolean | "left"
